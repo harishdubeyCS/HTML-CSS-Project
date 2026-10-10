@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Bricolage Grotesque", sans-serif; */
+    /* font-family: "Allison", cursive; */
+    /* font-family: "Lemon", serif; */
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background: linear-gradient(90deg, white 50%, #cfbaa8 50%);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 13vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.navlist{
+    display: flex;
+}
+
+.logo{
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.logo::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 40%;
+    left: 0;background: black;
+    bottom: 0;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.navlist li a:hover{
+    color: red;
+}
+
+.hero{
+    height: calc(100vh - 13vh);
+}
+
+.circle{
+    background:#f4f2ef;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle::before{
+    content: "stylish";
+    color: black;
+    text-transform: uppercase;
+    font-size: 10rem;
+    font-family: serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container::before,
+.container::after{
+    position: absolute;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    rotate: -90deg;
+}
+
+.container::before{
+    content: "be Fancy";
+    color: #dad3c7ea;
+    font-family: serif;
+    left: 120px;
+    top: 0;
+    bottom: 0;
+}
+
+.container::after{
+    content: "Erago";
+    color: #eeddcd54;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.img-container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container img{
+    height: 35rem;
+}
+
+.social-icons{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    gap: 2rem;
+}
+
+.icon{
+    color: black;
+    font-size: 2.1rem;
+}
