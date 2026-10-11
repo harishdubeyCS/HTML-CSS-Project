@@ -7,7 +7,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 | Project | Description |
 |--------|-------------|
 | [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page built using HTML and CSS |
-| Portfolio | Personal portfolio website |
+| [STYLISH](./STYLISH/) | STYLISH landing page built using HTML and CSS |
 | Landing Page | Responsive landing page |
 | Restaurant Website | Restaurant website using HTML and CSS |
 
