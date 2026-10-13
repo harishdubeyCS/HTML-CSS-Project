@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+      /* font-family: "Praise", cursive; */
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --white-clr:#fff;
+    --black-clr:#000;
+    --btn-clr:#6c3cd3;
+    --yellow-clr:#edd351;
+    --blue-clr:#60bff4;
+    --light-blue-clr:#8fddf3;
+    --txt-clr:#15073b;
+    --bg-clr:#f5f5f5;
+}
+
+.container{
+    min-height: 100vh;
+    background: var(--bg-clr);
+    overflow: hidden;
+}
+
+.navbar{
+    height: 13vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: var(--txt-clr);
+    font-family: "Praise", cursive;
+    margin-right: 4rem;
+}
+
+.navlinks{
+    color: var(--black-clr);
+    font-size: .9rem;
+}
+
+button{
+    background: var(--btn-clr);
+    border: none;
+    color: var(--white-clr);
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    border-radius: 5rem;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+.hero-section{
+    height: calc(100vh - 13vh);
+    width: 90%;
+    margin: auto;
+}
+
+.content{
+    max-width: 30rem;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.content span{
+    font-size: 1rem;
+    color: var(--black-clr);
+    background: var(--yellow-clr);
+    padding: .5rem 1rem;
+    border-radius: 5rem;
+}
+
+.content h1{
+    font-size: 4rem;
+    color: var(--txt-clr);
+    font-family: "Fredoka", sans-serif;
+}
+
+.content p{
+    margin: 2rem 0;
+}
+
+.design{
+    height: 100%;
+    width: 20rem;
+    position: absolute;
+    background: blueviolet;
+    top: 0;
+    right: 180px;
+}
+
+.design img{
+    height:auto;
+    max-width: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+.design::before, .design::after{
+    content: " ";
+    background: var(--yellow-clr);
+    position: absolute;
+    width: 10rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.design::before{
+    bottom: 20%;
+    left: -30%;
+    background-image: url("../image/bone-toy.png");
+}
+
+.design::after{
+    background-image: url("../image/dog-toy.png");
+    right: -6rem;
+    top: 20%;
+}
