@@ -9,6 +9,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 | [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page built using HTML and CSS |
 | [STYLISH](./STYLISH/) | STYLISH landing page built using HTML and CSS |
 | [PET DOG](./PET%DOG/) | Simple pet dog landing page built using HTML and CSS |
+| [PET DOG](./AI%VOICE%ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
 
 ## Project Preview
 
@@ -25,6 +26,10 @@ This repository contains my HTML and CSS projects created while learning and pra
     <td align="center" width="33%">
       <b>PET DOG</b><br><br>
       <img src="./PET%20DOG/preview/preview.png" width="200" alt="PET DOG Project">
+    </td>
+    <td align="center" width="33%">
+      <b>AI VOICE ASSISTANT</b><br><br>
+      <img src="./AI%20VOICE%ASSISTANT/preview/preview.png" width="200" alt="PET DOG Project">
     </td>
   </tr>
 </table>
