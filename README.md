@@ -13,7 +13,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 
 ## Project Preview
 
-<table>
+<table style="border-spacing: 15px 20px; width: 100%;">
   <tr>
     <td align="center" width="33%">
       <b>Nike Shoes</b><br><br>
