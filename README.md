@@ -27,6 +27,8 @@ This repository contains my HTML and CSS projects created while learning and pra
       <b>PET DOG</b><br><br>
       <img src="./PET%20DOG/preview/preview.png" width="250" alt="PET DOG Project">
     </td>
+  </tr>
+  <tr>
     <td align="center" width="33%">
       <b>AI VOICE ASSISTANT</b><br><br>
       <img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="250" alt="PET DOG Project">
