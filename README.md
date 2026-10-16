@@ -17,19 +17,19 @@ This repository contains my HTML and CSS projects created while learning and pra
   <tr>
     <td align="center" width="33%">
       <b>Nike Shoes</b><br><br>
-      <img src="./NIKE%20SHOES/preview/preview.png" width="200" alt="Nike Shoes Project">
+      <img src="./NIKE%20SHOES/preview/preview.png" width="250" alt="Nike Shoes Project">
     </td>
     <td align="center" width="33%">
       <b>STYLISH</b><br><br>
-      <img src="./STYLISH/preview/preview.png" width="200" alt="STYLISH Project">
+      <img src="./STYLISH/preview/preview.png" width="250" alt="STYLISH Project">
     </td>
     <td align="center" width="33%">
       <b>PET DOG</b><br><br>
-      <img src="./PET%20DOG/preview/preview.png" width="200" alt="PET DOG Project">
+      <img src="./PET%20DOG/preview/preview.png" width="250" alt="PET DOG Project">
     </td>
     <td align="center" width="33%">
       <b>AI VOICE ASSISTANT</b><br><br>
-      <img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="200" alt="PET DOG Project">
+      <img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="250" alt="PET DOG Project">
     </td>
   </tr>
 </table>
