@@ -10,6 +10,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 | [STYLISH](./STYLISH/) | STYLISH landing page built using HTML and CSS |
 | [PET DOG](./PET%DOG/) | Simple pet dog landing page built using HTML and CSS |
 | [AI VOICE ASSISTANT](./AI%VOICE%ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
+| [Game Homeland](./GAME%HOMELAND/) | Game Homeland landing page built using HTML and CSS |
 
 ## Project Preview
 
@@ -31,7 +32,11 @@ This repository contains my HTML and CSS projects created while learning and pra
   <tr>
     <td align="center" width="33%">
       <b>AI VOICE ASSISTANT</b><br><br>
-      <img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="250" alt="PET DOG Project">
+      <img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="250" alt="AI VOICE ASSITANT Project">
+    </td>
+    <td align="center" width="33%">
+      <b>Game Homeland</b><br><br>
+      <img src="./GAME%20HOMELAND/preview/preview.png" width="250" alt="GAME HOMELAND Project">
     </td>
   </tr>
 </table>
