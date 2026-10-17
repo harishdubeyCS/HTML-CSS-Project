@@ -8,9 +8,9 @@ This repository contains my HTML and CSS projects created while learning and pra
 |--------|-------------|
 | [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page built using HTML and CSS |
 | [STYLISH](./STYLISH/) | STYLISH landing page built using HTML and CSS |
-| [PET DOG](./PET%DOG/) | Simple pet dog landing page built using HTML and CSS |
-| [AI VOICE ASSISTANT](./AI%VOICE%ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
-| [Game Homeland](./GAME%HOMELAND/) | Game Homeland landing page built using HTML and CSS |
+| [PET DOG](./PET%20DOG/) | Simple pet dog landing page built using HTML and CSS |
+| [AI VOICE ASSISTANT](./AI%20VOICE%20ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
+| [Game Homeland](./GAME%20HOMELAND/) | Game Homeland landing page built using HTML and CSS |
 
 ## Project Preview
 
