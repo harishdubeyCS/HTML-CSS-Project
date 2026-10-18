@@ -40,7 +40,7 @@ This repository contains my HTML and CSS projects created while learning and pra
       <img src="./GAME%20HOMELAND/preview/preview.png" width="250" alt="GAME HOMELAND Project">
     </td>
     <td align="center" width="33%">
-      <b>Game Homeland</b><br><br>
+      <b>FURNITURE LANDPAGE</b><br><br>
       <img src="./FURNITURE%20LANDPAGE/preview/preview.png" width="250" alt="FURNITURE LANDPAGE Project">
     </td>
   </tr>
