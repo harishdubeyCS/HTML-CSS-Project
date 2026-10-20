@@ -12,6 +12,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 | [AI VOICE ASSISTANT](./AI%20VOICE%20ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
 | [Game Homeland](./GAME%20HOMELAND/) | Game Homeland landing page built using HTML and CSS |
 | [FURNITURE LANDPAGE](./FURNITURE%20LANDPAGE/) | Furniture landing page built using HTML and CSS |
+| [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page built using HTML and CSS |
 
 ## Project Preview
 
@@ -42,6 +43,12 @@ This repository contains my HTML and CSS projects created while learning and pra
     <td align="center" width="33%">
       <b>FURNITURE LANDPAGE</b><br><br>
       <img src="./FURNITURE%20LANDPAGE/preview/preview.png" width="250" alt="FURNITURE LANDPAGE Project">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <b>SNAPPLE LANDPAGE</b><br><br>
+      <img src="./SNAPPLE/preview/preview.png" width="250" alt="SNAPPLE LANDPAGE Project">
     </td>
   </tr>
 </table>
