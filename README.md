@@ -13,6 +13,8 @@ This repository contains my HTML and CSS projects created while learning and pra
 | [Game Homeland](./GAME%20HOMELAND/) | Game Homeland landing page built using HTML and CSS |
 | [FURNITURE LANDPAGE](./FURNITURE%20LANDPAGE/) | Furniture landing page built using HTML and CSS |
 | [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page built using HTML and CSS |
+| [PORTFOLIO LANDPAGE](./PORFOLIO/) | Portfolio landing page built using HTML and CSS |
+| [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page built using HTML and CSS |
 
 ## Project Preview
 
@@ -49,6 +51,14 @@ This repository contains my HTML and CSS projects created while learning and pra
     <td align="center" width="33%">
       <b>SNAPPLE LANDPAGE</b><br><br>
       <img src="./SNAPPLE/preview/preview.png" width="250" alt="SNAPPLE LANDPAGE Project">
+    </td>
+    <td align="center" width="33%">
+      <b>PORTFOLIO LANDPAGE</b><br><br>
+      <img src="./PORTFOLIO/preview/preview.png" width="250" alt="PORTFOLIO LANDPAGE Project">
+    </td>
+    <td align="center" width="33%">
+      <b>HONEYBEE LANDPAGE</b><br><br>
+      <img src="./HONEYBEE/preview/preview.png" width="250" alt="HONEYBEE LANDPAGE Project">
     </td>
   </tr>
 </table>
