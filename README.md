@@ -54,7 +54,7 @@ This repository contains my HTML and CSS projects created while learning and pra
     </td>
     <td align="center" width="33%">
       <b>PORTFOLIO LANDPAGE</b><br><br>
-      <img src="./PORTFOLIO/preview/preview.png" width="250" alt="PORTFOLIO LANDPAGE Project">
+      <img src="./PORFOLIO/preview/preview.png" width="250" alt="PORTFOLIO LANDPAGE Project">
     </td>
     <td align="center" width="33%">
       <b>HONEYBEE LANDPAGE</b><br><br>
