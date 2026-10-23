@@ -15,6 +15,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 | [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page built using HTML and CSS |
 | [PORTFOLIO LANDPAGE](./PORFOLIO/) | Portfolio landing page built using HTML and CSS |
 | [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page built using HTML and CSS |
+| [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | BOSTON ROUND landing page built using HTML and CSS |
 
 ## Project Preview
 
@@ -59,6 +60,12 @@ This repository contains my HTML and CSS projects created while learning and pra
     <td align="center" width="33%">
       <b>HONEYBEE LANDPAGE</b><br><br>
       <img src="./HONEYBEE/preview/preview.png" width="250" alt="HONEYBEE LANDPAGE Project">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <b>BOSTON ROUND LANDPAGE</b><br><br>
+      <img src="./BOSTON%20ROUND/preview/preview.png" width="250" alt="BOSTON ROUND LANDPAGE Project">
     </td>
   </tr>
 </table>
