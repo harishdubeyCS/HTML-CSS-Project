@@ -16,6 +16,7 @@ This repository contains my HTML and CSS projects created while learning and pra
 | [PORTFOLIO LANDPAGE](./PORFOLIO/) | Portfolio landing page built using HTML and CSS |
 | [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page built using HTML and CSS |
 | [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | BOSTON ROUND landing page built using HTML and CSS |
+| [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | BEEF STREAK landing page built using HTML and CSS |
 
 ## Project Preview
 
@@ -66,6 +67,10 @@ This repository contains my HTML and CSS projects created while learning and pra
     <td align="center" width="33%">
       <b>BOSTON ROUND LANDPAGE</b><br><br>
       <img src="./BOSTON%20ROUND/preview/preview.png" width="250" alt="BOSTON ROUND LANDPAGE Project">
+    </td>
+    <td align="center" width="33%">
+      <b>BEEF STREAK LANDPAGE</b><br><br>
+      <img src="./BEEF%20STREAK/preview/preview.png" width="250" alt="BEEF STREAK LANDPAGE Project">
     </td>
   </tr>
 </table>
