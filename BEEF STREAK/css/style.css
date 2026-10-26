@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Bricolage Grotesque", sans-serif; */
+    /* font-family: "Allison", cursive; */
+    /* font-family: "Lemon", serif; */
+}
+
+
+:root{
+    --dark-grey: #373737;
+    --banana-clr: #F6D800;
+    --stean-clr:#DDDDDD;
+    --pure-white:#FFFFFF;
+    --ultimate-orange:#FF4000;
+}
+
+.main-container{
+    background: var(--dark-grey);
+    min-height: 100vh;
+    position: relative;
+    isolation: isolate;
+}
+
+.main-container::before, .main-container::after, .circle{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--banana-clr);
+    z-index: -1;
+}
+
+.main-container::before{
+    clip-path: circle(12rem at 60% 100% );
+}
+
+.main-container::after{
+    clip-path: circle(12rem at 90% 0%);
+    top: 0;
+}
+
+.circle{
+    clip-path: circle(32rem at bottom right);
+}
+
+.working-container{
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    height: 12vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar .navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+} 
+
+.logo .fa-solid{
+    color: var(--banana-clr);
+    font-size: 2rem;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .95rem;
+    color: var(--pure-white);
+    position: relative;
+}
+
+.navlist li a:hover{
+    color: var(--stean-clr);
+}
+
+.navlist li a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:.12rem;
+    background-color: #e9f0ed;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .5s ease-in-out;
+}
+
+.navlist li a:hover::before{
+    transform: scaleX(1);
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: var(--dark-grey);
+    font-size: 1.2rem;
+}
+
+.hero-section{
+    height: calc(100vh - 12vh);
+    display: flex;
+}
+
+.content-container{
+    flex: 1;
+}
+
+.content{
+    margin-top: 6rem;
+}
+
+.content .heading{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.line{
+    background: var(--banana-clr);
+    width: 20%;
+    height: .3rem;
+}
+
+.heading span{
+    font-size: 1.4rem;
+    color: var(--pure-white);
+    letter-spacing: .2rem;
+}
+
+.content h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: var(--pure-white);
+}
+
+.content p{
+    font-size: .95rem;
+    color: var(--stean-clr);
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.action{
+    width: 15rem;
+    height: 3.5rem;
+    background: linear-gradient(var(--banana-clr),var(--ultimate-orange));
+    border-radius: 5rem;
+    position: relative;
+    transition: all .5s ease-in;
+}
+
+.action:hover{
+    background: linear-gradient(var(--ultimate-orange),var(--banana-clr));
+}
+
+.action button{
+    background: none;
+    color: var(--pure-white);
+    border: none;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    transition: all .5s ease-in;
+}
+
+.action .fa-solid{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.1rem;
+    transition: all .5s ease-in;
+}
+
+.action:hover button{
+    left: 50%;
+}
+
+.action:hover .fa-solid{
+    right: 80%;
+}
+
+
+.image-container{
+    flex: 1;
+}
+
+.image-container .recipe{
+    height: 30rem;
+    position: relative;
+}
+
+.recipe img{
+    position: absolute;
+    right: 0;
+    left: 8rem;
+    top: 3rem;
+    height: 100%;
+}
+
+.humburger {
+    cursor: pointer;
+    display: none;
+}
+
+.humburger .fa-solid{
+    font-size: 1.6rem;
+    color: var(--banana-clr);
+}
+
+
+@media screen and (max-width: 500px) {
+    .image-container .recipe{
+        height: 10rem;
+    }
+
+    .recipe img{
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+
+    .main-container::after, .main-container::before, .icon{
+        display: none;
+    }
+
+    .circle{
+        clip-path: circle(12rem at bottom);
+    }
+
+    .navlist{
+        flex-direction: column;
+        background: var(--ultimate-orange);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 20rem;
+        z-index: 3;
+        transform: translateX(-100%);
+        transition: transform .5s ease-in-out;
+    }
+
+    .navlist-active{
+        transform: translateX(0);
+    }
+
+    .content h1{
+        font-size: 3.2rem;
+    }
+
+    .content{
+        margin-top: 1rem;
+    }
+
+    .humburger{
+        display: block;
+    }
+}
