@@ -4,19 +4,20 @@ This repository contains my HTML and CSS projects created while learning and pra
 
 ## Projects
 
-| Project | Description |
-|--------|-------------|
-| [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page built using HTML and CSS |
-| [STYLISH](./STYLISH/) | STYLISH landing page built using HTML and CSS |
-| [PET DOG](./PET%20DOG/) | Simple pet dog landing page built using HTML and CSS |
-| [AI VOICE ASSISTANT](./AI%20VOICE%20ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
-| [Game Homeland](./GAME%20HOMELAND/) | Game Homeland landing page built using HTML and CSS |
-| [FURNITURE LANDPAGE](./FURNITURE%20LANDPAGE/) | Furniture landing page built using HTML and CSS |
-| [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page built using HTML and CSS |
-| [PORTFOLIO LANDPAGE](./PORFOLIO/) | Portfolio landing page built using HTML and CSS |
-| [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page built using HTML and CSS |
-| [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | BOSTON ROUND landing page built using HTML and CSS |
-| [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | BEEF STREAK landing page built using HTML and CSS |
+| # | Project | Description | Technologies |
+|---|---|---|---|
+| 1 | [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page | HTML, CSS |
+| 2 | [STYLISH](./STYLISH/) | Stylish landing page | HTML, CSS |
+| 3 | [PET DOG](./PET%20DOG/) | Pet Dog landing page | HTML, CSS |
+| 4 | [AI VOICE ASSISTANT](./AI%20VOICE%20ASSISTANT/) | AI Voice Assistant landing page | HTML, CSS, JavaScript |
+| 5 | [Game Homeland](./GAME%20HOMELAND/) | Gaming landing page | HTML, CSS |
+| 6 | [FURNITURE LANDPAGE](./FURNITURE%20LANDPAGE/) | Furniture landing page | HTML, CSS |
+| 7 | [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page | HTML, CSS |
+| 8 | [PORTFOLIO LANDPAGE](./PORFOLIO/) | Personal portfolio landing page | HTML, CSS |
+| 9 | [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page | HTML, CSS |
+| 10 | [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | Boston Round landing page | HTML, CSS |
+| 11 | [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | Beef Streak landing page | HTML, CSS |
+| 12 | [RINGO](./RINGO/) | Fashion landing page | HTML, CSS |
 
 ## Project Preview
 
@@ -71,6 +72,10 @@ This repository contains my HTML and CSS projects created while learning and pra
     <td align="center" width="33%">
       <b>BEEF STREAK LANDPAGE</b><br><br>
       <img src="./BEEF%20STREAK/preview/preview.png" width="250" alt="BEEF STREAK LANDPAGE Project">
+    </td>
+    <td align="center" width="33%">
+      <b>RINGO LANDPAGE</b><br><br>
+      <img src="./RINGO/preview/preview.png" width="250" alt="RINGO LANDPAGE Project">
     </td>
   </tr>
 </table>
