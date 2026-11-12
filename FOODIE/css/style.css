@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Bricolage Grotesque", sans-serif; */
+    /* font-family: "Allison", cursive; */
+    /* font-family: "Lemo", serif; */
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    height: 100vh;
+    background: #fff;
+    position: relative;
+    isolation: isolate;
+    padding-inline: 4rem;
+    overflow: hidden;
+}
+
+.container::before{
+    content: "";
+    background: rgb(89, 224, 89);
+    width: 52rem;
+    height: 50rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+    right: -20%;
+    z-index: -1;
+}
+
+.navbar{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.navlist{
+    display: flex;
+    gap: 3rem;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    font-size: .99rem;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.navlist li a::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color:rgb(89, 224, 89);
+    position: absolute;
+    bottom: -5px;
+    transition: all .5s ease-in-out;
+}
+
+.navlist li a:hover::before{
+    width: 40%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icons .icon{
+    background: rgb(235, 232, 232);
+    padding: .1rem .3rem;
+    border-radius: 5rem;
+    margin-left: 1rem;
+    color: black;
+}
+
+.icons button{
+    padding: .3rem 1rem;
+    border: none;
+    background: rgb(235, 232, 232);
+    border-radius: 5rem;
+    color: black;
+}
+
+.icons button:hover, .icons .icon:hover{
+    background: green;
+    color: white;
+}
+
+.section-one{
+    display: flex;
+    align-items: center;
+}
+
+.section-one h4{
+    background: rgb(179, 169, 169);
+    padding: .5rem 1rem;
+    color: white;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.section-one h1{
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    max-width: 85%;
+    line-height: 4rem;
+    margin-top: 2rem;
+}
+
+.section-one p{
+    max-width: 60%;
+    color: rgb(87, 87, 87);
+    font-size: .99rem;
+    margin: 1rem 0;
+}
+
+.section-one button{
+    padding: .5rem 1.1rem;
+    border-radius: 5rem;
+    background: rgb(89, 224, 89);
+    border: none;
+    color: white;
+    transform: all .3s ease-in-out;
+}
+
+.section-one button:hover{
+    color: rgb(243, 243, 243);
+    background: rgb(30, 73, 26);
+}
+
+.section-one h1 span{
+    background: rgb(89, 224, 89);
+    color: white;
+    padding: 0 .7rem;
+}
+
+.img-box img{
+    height: 25rem;
+    margin-top: 6rem;
+}
