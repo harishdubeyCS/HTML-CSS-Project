@@ -20,6 +20,7 @@ This repository showcases my journey in frontend development through different l
 | 10 | [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | Boston Round landing page | HTML, CSS |
 | 11 | [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | Beef Streak landing page | HTML, CSS |
 | 12 | [RINGO](./RINGO/) | Fashion landing page | HTML, CSS |
+| 13 | [FOODIE](./FOODIE/) | Food ordering website with interactive UI | HTML, CSS, JavaScript |
 
 ## 🖼️ Project Previews
 
@@ -80,6 +81,12 @@ This repository showcases my journey in frontend development through different l
       <a href="./RINGO/"><img src="./RINGO/preview/preview.png" width="250" alt="RINGO Preview"></a>
     </td>
   </tr>
+  <tr>
+    <td align="center" width="33%">
+      <b><a href="./FOODIE/">FOODIE</a></b><br><br>
+      <a href="./FOODIE/"><img src="./FOODIE/preview/preview.png" width="250" alt="Foodie Preview"></a>
+    </td>
+  </tr>
 </table>
 
 ## 🛠️ Technologies Used
@@ -99,6 +106,7 @@ This repository showcases my journey in frontend development through different l
 - Styling and positioning elements
 - Practicing responsive design
 - Adding basic interactivity using JavaScript
+- Building an interactive shopping cart system
 
 ## 📌 About This Repository
 
