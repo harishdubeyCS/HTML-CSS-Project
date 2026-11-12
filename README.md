@@ -1,89 +1,107 @@
-# HTML & CSS Projects
+# 🌐 HTML & CSS Projects
 
-This repository contains my HTML and CSS projects created while learning and practicing frontend web development.
+A collection of frontend projects built using HTML, CSS, and JavaScript while learning and practicing web development.
 
-## Projects
+This repository showcases my journey in frontend development through different landing pages, website layouts, and UI designs.
 
-| Project | Description |
-|--------|-------------|
-| [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page built using HTML and CSS |
-| [STYLISH](./STYLISH/) | STYLISH landing page built using HTML and CSS |
-| [PET DOG](./PET%20DOG/) | Simple pet dog landing page built using HTML and CSS |
-| [AI VOICE ASSISTANT](./AI%20VOICE%20ASSISTANT/) | Simple Ai Voice Assistant landing page built using HTML and CSS and little bit of JS |
-| [Game Homeland](./GAME%20HOMELAND/) | Game Homeland landing page built using HTML and CSS |
-| [FURNITURE LANDPAGE](./FURNITURE%20LANDPAGE/) | Furniture landing page built using HTML and CSS |
-| [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page built using HTML and CSS |
-| [PORTFOLIO LANDPAGE](./PORFOLIO/) | Portfolio landing page built using HTML and CSS |
-| [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page built using HTML and CSS |
-| [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | BOSTON ROUND landing page built using HTML and CSS |
-| [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | BEEF STREAK landing page built using HTML and CSS |
+## 📂 Projects
 
-## Project Preview
+| # | Project | Description | Technologies |
+|---|---|---|---|
+| 1 | [Nike Shoes](./NIKE%20SHOES/) | Nike Shoes landing page | HTML, CSS |
+| 2 | [STYLISH](./STYLISH/) | Stylish landing page | HTML, CSS |
+| 3 | [PET DOG](./PET%20DOG/) | Pet Dog landing page | HTML, CSS |
+| 4 | [AI VOICE ASSISTANT](./AI%20VOICE%20ASSISTANT/) | AI Voice Assistant landing page | HTML, CSS, JavaScript |
+| 5 | [Game Homeland](./GAME%20HOMELAND/) | Gaming landing page | HTML, CSS |
+| 6 | [FURNITURE LANDPAGE](./FURNITURE%20LANDPAGE/) | Furniture landing page | HTML, CSS |
+| 7 | [SNAPPLE LANDPAGE](./SNAPPLE/) | Snapple landing page | HTML, CSS |
+| 8 | [PORTFOLIO LANDPAGE](./PORFOLIO/) | Personal portfolio landing page | HTML, CSS |
+| 9 | [HONEYBEE LANDPAGE](./HONEYBEE/) | HoneyBee landing page | HTML, CSS |
+| 10 | [BOSTON ROUND LANDPAGE](./BOSTON%20ROUND/) | Boston Round landing page | HTML, CSS |
+| 11 | [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | Beef Streak landing page | HTML, CSS |
+| 12 | [RINGO](./RINGO/) | Fashion landing page | HTML, CSS |
 
-<table style="margin-left: 20px;">
+## 🖼️ Project Previews
+
+<table>
   <tr>
     <td align="center" width="33%">
-      <b>Nike Shoes</b><br><br>
-      <img src="./NIKE%20SHOES/preview/preview.png" width="250" alt="Nike Shoes Project">
+      <b><a href="./NIKE%20SHOES/">Nike Shoes</a></b><br><br>
+      <a href="./NIKE%20SHOES/"><img src="./NIKE%20SHOES/preview/preview.png" width="250" alt="Nike Shoes Preview"></a>
     </td>
     <td align="center" width="33%">
-      <b>STYLISH</b><br><br>
-      <img src="./STYLISH/preview/preview.png" width="250" alt="STYLISH Project">
+      <b><a href="./STYLISH/">STYLISH</a></b><br><br>
+      <a href="./STYLISH/"><img src="./STYLISH/preview/preview.png" width="250" alt="STYLISH Preview"></a>
     </td>
     <td align="center" width="33%">
-      <b>PET DOG</b><br><br>
-      <img src="./PET%20DOG/preview/preview.png" width="250" alt="PET DOG Project">
+      <b><a href="./PET%20DOG/">PET DOG</a></b><br><br>
+      <a href="./PET%20DOG/"><img src="./PET%20DOG/preview/preview.png" width="250" alt="PET DOG Preview"></a>
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <b>AI VOICE ASSISTANT</b><br><br>
-      <img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="250" alt="AI VOICE ASSITANT Project">
+      <b><a href="./AI%20VOICE%20ASSISTANT/">AI VOICE ASSISTANT</a></b><br><br>
+      <a href="./AI%20VOICE%20ASSISTANT/"><img src="./AI%20VOICE%20ASSISTANT/preview/preview.png" width="250" alt="AI Voice Assistant Preview"></a>
     </td>
     <td align="center" width="33%">
-      <b>Game Homeland</b><br><br>
-      <img src="./GAME%20HOMELAND/preview/preview.png" width="250" alt="GAME HOMELAND Project">
+      <b><a href="./GAME%20HOMELAND/">Game Homeland</a></b><br><br>
+      <a href="./GAME%20HOMELAND/"><img src="./GAME%20HOMELAND/preview/preview.png" width="250" alt="Game Homeland Preview"></a>
     </td>
     <td align="center" width="33%">
-      <b>FURNITURE LANDPAGE</b><br><br>
-      <img src="./FURNITURE%20LANDPAGE/preview/preview.png" width="250" alt="FURNITURE LANDPAGE Project">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <b>SNAPPLE LANDPAGE</b><br><br>
-      <img src="./SNAPPLE/preview/preview.png" width="250" alt="SNAPPLE LANDPAGE Project">
-    </td>
-    <td align="center" width="33%">
-      <b>PORTFOLIO LANDPAGE</b><br><br>
-      <img src="./PORFOLIO/preview/preview.png" width="250" alt="PORTFOLIO LANDPAGE Project">
-    </td>
-    <td align="center" width="33%">
-      <b>HONEYBEE LANDPAGE</b><br><br>
-      <img src="./HONEYBEE/preview/preview.png" width="250" alt="HONEYBEE LANDPAGE Project">
+      <b><a href="./FURNITURE%20LANDPAGE/">FURNITURE LANDPAGE</a></b><br><br>
+      <a href="./FURNITURE%20LANDPAGE/"><img src="./FURNITURE%20LANDPAGE/preview/preview.png" width="250" alt="Furniture Preview"></a>
     </td>
   </tr>
   <tr>
     <td align="center" width="33%">
-      <b>BOSTON ROUND LANDPAGE</b><br><br>
-      <img src="./BOSTON%20ROUND/preview/preview.png" width="250" alt="BOSTON ROUND LANDPAGE Project">
+      <b><a href="./SNAPPLE/">SNAPPLE LANDPAGE</a></b><br><br>
+      <a href="./SNAPPLE/"><img src="./SNAPPLE/preview/preview.png" width="250" alt="Snapple Preview"></a>
     </td>
     <td align="center" width="33%">
-      <b>BEEF STREAK LANDPAGE</b><br><br>
-      <img src="./BEEF%20STREAK/preview/preview.png" width="250" alt="BEEF STREAK LANDPAGE Project">
+      <b><a href="./PORFOLIO/">PORTFOLIO LANDPAGE</a></b><br><br>
+      <a href="./PORFOLIO/"><img src="./PORFOLIO/preview/preview.png" width="250" alt="Portfolio Preview"></a>
+    </td>
+    <td align="center" width="33%">
+      <b><a href="./HONEYBEE/">HONEYBEE LANDPAGE</a></b><br><br>
+      <a href="./HONEYBEE/"><img src="./HONEYBEE/preview/preview.png" width="250" alt="HoneyBee Preview"></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <b><a href="./BOSTON%20ROUND/">BOSTON ROUND</a></b><br><br>
+      <a href="./BOSTON%20ROUND/"><img src="./BOSTON%20ROUND/preview/preview.png" width="250" alt="Boston Round Preview"></a>
+    </td>
+    <td align="center" width="33%">
+      <b><a href="./BEEF%20STREAK/">BEEF STREAK</a></b><br><br>
+      <a href="./BEEF%20STREAK/"><img src="./BEEF%20STREAK/preview/preview.png" width="250" alt="Beef Streak Preview"></a>
+    </td>
+    <td align="center" width="33%">
+      <b><a href="./RINGO/">RINGO</a></b><br><br>
+      <a href="./RINGO/"><img src="./RINGO/preview/preview.png" width="250" alt="RINGO Preview"></a>
     </td>
   </tr>
 </table>
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
 - Flexbox
 - CSS Grid
-- Responsive Design
+- Responsive Web Design
 
-## About
+## 🎯 What I Practiced
 
-This repository is a collection of my frontend practice projects.  
-More projects will be added as I continue learning and improving my web development skills.
+- Building website layouts using HTML and CSS
+- Creating landing pages and UI designs
+- Working with Flexbox and CSS Grid
+- Styling and positioning elements
+- Practicing responsive design
+- Adding basic interactivity using JavaScript
+
+## 📌 About This Repository
+
+This repository contains my frontend practice projects. I continuously work on improving my HTML, CSS, JavaScript, and UI development skills.
+
+More projects will be added as I continue learning and building.
