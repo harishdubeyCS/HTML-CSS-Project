@@ -21,6 +21,7 @@ This repository showcases my journey in frontend development through different l
 | 11 | [BEEF STREAK LANDPAGE](./BEEF%20STREAK/) | Beef Streak landing page | HTML, CSS |
 | 12 | [RINGO](./RINGO/) | Fashion landing page | HTML, CSS |
 | 13 | [FOODIE](./FOODIE/) | Food ordering website with interactive UI | HTML, CSS, JavaScript |
+| 14 | [CODING MASTER](./CODING%20MASTER/) | Coding Master landing page | HTML, CSS |
 
 ## 🖼️ Project Previews
 
@@ -85,6 +86,10 @@ This repository showcases my journey in frontend development through different l
     <td align="center" width="33%">
       <b><a href="./FOODIE/">FOODIE</a></b><br><br>
       <a href="./FOODIE/"><img src="./FOODIE/preview/preview.png" width="250" alt="Foodie Preview"></a>
+    </td>
+    <td align="center" width="33%">
+      <b><a href="./CODING%20MASTER/">CODING MASTER</a></b><br><br>
+      <a href="./CODING%20MASTER/"><img src="./CODING%20MASTER/preview/preview.png" width="250" alt="Coding Master Preview"></a>
     </td>
   </tr>
 </table>
