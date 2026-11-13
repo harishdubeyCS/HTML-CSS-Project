@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Bricolage Grotesque", sans-serif; */
+    /* font-family: "Allison", cursive; */
+    /* font-family: "Lemon", serif; */
+}
+:root{
+    --body-bg:#573cb8;
+    --orange:#ffdd00;
+    --pink:#fc0fc0;
+    --green:#73c8a9;
+    --red:#ed213a;
+    --prple:#573cb8;
+    --black:#000;
+    --white:#fff;
+}
+.container{
+    background-image: radial-gradient(at top , var(--body-bg) ,var(--black) 70%);
+    width: 100%;
+    min-height: 100vh;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo span{
+    color: var(--prple);
+}
+.logo{
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: bold;
+}
+.line{
+    height: 0.1rem;
+    width: 2.7rem;
+    background: var(--white);
+    margin: .6rem;
+}
+.hero{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+}
+.content h1{
+    font-size: 5rem;
+}
+.content p{
+    margin: 2rem 0;
+    max-width: 35rem;
+    line-height: 1.2rem;
+    text-transform: lowercase;
+}
+.content span{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+.colors{
+    position: absolute;
+    left: 86px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+input[type='radio']{
+    width: 1rem;
+    height: 1rem;
+    outline: 3px solid var(--radio-color);
+    border-radius: 50%;
+    appearance: none;
+    outline-offset: 3px;
+    cursor: pointer;
+}
+input[type='radio']#purple{
+    --radio-color: var(--prple);
+}
+input[type='radio']#orange{
+    --radio-color: var(--orange);
+}
+input[type='radio']#pink{
+    --radio-color: var(--pink);
+}
+input[type='radio']#green{
+    --radio-color: var(--green);
+}
+input[type='radio']#red{
+    --radio-color: var(--red);
+}
+input[type='radio']:checked{
+    background-color: var(--radio-color);
+}
+:root:has(#red:checked){
+    --body-bg:var(--red);
+}
+:root:has(#purple:checked){
+    --body-bg:var(--prple);
+}
+:root:has(#green:checked){
+    --body-bg:var(--green);
+}
+:root:has(#orange:checked){
+    --body-bg:var(--orange);
+}
+:root:has(#pink:checked){
+    --body-bg:var(--pink);
+}
