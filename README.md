@@ -22,6 +22,7 @@ This repository showcases my journey in frontend development through different l
 | 12 | [RINGO](./RINGO/) | Fashion landing page | HTML, CSS |
 | 13 | [FOODIE](./FOODIE/) | Food ordering website with interactive UI | HTML, CSS, JavaScript |
 | 14 | [CODING MASTER](./CODING%20MASTER/) | Coding Master landing page | HTML, CSS |
+| 15 | [COFFEE](./COFFEE/) | Coffee website landing page | HTML, CSS |
 
 ## 🖼️ Project Previews
 
@@ -90,6 +91,10 @@ This repository showcases my journey in frontend development through different l
     <td align="center" width="33%">
       <b><a href="./CODING%20MASTER/">CODING MASTER</a></b><br><br>
       <a href="./CODING%20MASTER/"><img src="./CODING%20MASTER/preview/preview.png" width="250" alt="Coding Master Preview"></a>
+    </td>
+    <td align="center" width="33%">
+      <b><a href="./COFFEE/">COFFEE</a></b><br><br>
+      <a href="./COFFEE/"><img src="./COFFEE/preview/preview.png" width="250" alt="Coffee Preview"></a>
     </td>
   </tr>
 </table>
