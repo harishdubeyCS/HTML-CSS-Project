@@ -23,6 +23,7 @@ This repository showcases my journey in frontend development through different l
 | 13 | [FOODIE](./FOODIE/) | Food ordering website with interactive UI | HTML, CSS, JavaScript |
 | 14 | [CODING MASTER](./CODING%20MASTER/) | Coding Master landing page | HTML, CSS |
 | 15 | [FOOD HUB](./FOOD%20HUB/) | Food website landing page | HTML, CSS |
+| 16 | [COFFEE](./COFFEE/) | Coffee website landing page | HTML, CSS |
 
 ## 🖼️ Project Previews
 
@@ -97,6 +98,14 @@ This repository showcases my journey in frontend development through different l
       <a href="./FOOD%20HUB/"><img src="./FOOD%20HUB/preview/preview.png" width="250" alt="Food Hub Preview"></a>
     </td>
   </tr>
+  <tr>
+   <td align="center" width="33%">
+    <b><a href="./COFFEE/">COFFEE</a></b><br><br>
+    <a href="./COFFEE/">
+      <img src="./COFFEE/preview/preview.png" width="250" alt="Coffee Preview">
+    </a>
+   </td>
+    </tr>
 </table>
 
 ## 🛠️ Technologies Used
