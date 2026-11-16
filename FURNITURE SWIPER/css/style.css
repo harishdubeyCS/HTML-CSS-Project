@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Bricolage Grotesque", sans-serif; */
+    /* font-family: "Allison", cursive; */
+    /* font-family: "Lemon", serif; */
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --green-clr:#18311e;
+    --gray-clr:#f3f1ef;
+    --orage-clr: #ea7527;
+    --black-clr: #000;
+}
+
+.main-area{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.side-bar{
+    width: 6rem;
+    background: var(--green-clr);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+}
+
+.working-area{
+    height: 100vh;
+    width: calc(100% - 6rem);
+    background: var(--gray-clr);
+}
+
+.navbar{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5rem;
+}
+
+.hero-section{
+    height: calc(100vh -  12vh);
+    display: flex;
+    align-items: center;
+    padding-inline: 5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    flex: 1;
+}
+
+.swiper{
+    flex: 1;
+    position: relative;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 1.15rem;
+    color: var(--gray-clr);
+}
+
+.icon:hover{
+    cursor: pointer;
+    background: linear-gradient(var(--gray-clr), var(--orage-clr));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.fa-solid{
+    color: var(--green-clr);
+    font-size: 1.2rem;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navlinks{
+    color: var(--green-clr);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Lemon", serif;
+    letter-spacing: .1px;
+}
+
+.content h1{
+    font-size: 4rem;
+    color: var(--green-clr);
+    font-family: "Lemon", serif;
+    letter-spacing: .1px;
+    line-height: 6rem;
+}
+
+.content p{
+    max-width: 500px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.content button{
+    padding: .9rem  1.6rem;
+    font-size: 1rem;
+    background: var(--green-clr);
+    border: none;
+    color: var(--gray-clr);
+    text-transform: uppercase;
+    transition: transform .5s ease-in-out;
+}
+
+.content button:hover{
+    transform: scale(1.1);
+}
+
+.detail{
+    margin-top: 3rem;
+}
+
+.swiper-slide img{
+    width: 32vw;
+    float: right;
+}
+
+.swiper::before{
+    content:" ";
+    position: absolute;
+    inset: 6rem;
+    background: var(--orage-clr);
+    border-radius: 50%;
+}
+
+.swiper::after{
+    content:' ';
+    position: absolute;
+    inset: 2rem;
+    border: .1rem solid var(--green-clr);
+    border-radius: 50%;
+    opacity: .4;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    background: var(--green-clr);
+    height: 10rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+    right: -5%;
+}
+
+.fa-angle-right, 
+.fa-angle-left{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.play{
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    background: var(--green-clr);
+    padding: 1rem 1.3rem;
+    border-radius: 50%;
+    z-index: 5;
+    transition: transform .5s ease-in-out;
+}
+
+.fa-play{
+    color: var(--gray-clr);
+}
+
+.play:hover{
+    transform: scale(1.05) translateY(-15%);
+}
+
+.play::before{
+    content: '';
+    background: var(--green-clr);
+    inset: 0;
+    z-index: -1;
+    opacity: .8;
+    position: absolute;
+    border-radius: 50%;
+    animation: pulse 4s ease-out infinite;
+}
+
+@keyframes pulse {
+    100%{
+        opacity: 0;
+        transform: scale(1.8);
+    }
+}
+
+.play:hover::before{
+    animation: none;
+}
