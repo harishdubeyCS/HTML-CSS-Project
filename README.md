@@ -24,6 +24,7 @@ This repository showcases my journey in frontend development through different l
 | 14 | [CODING MASTER](./CODING%20MASTER/) | Coding Master landing page | HTML, CSS |
 | 15 | [FOOD HUB](./FOOD%20HUB/) | Food website landing page | HTML, CSS |
 | 16 | [COFFEE](./COFFEE/) | Coffee website landing page | HTML, CSS |
+| 17 | [FURNITURE SWIPER](./FURNITURE%20SWIPER/) | Furniture website with interactive image slider | HTML, CSS, JavaScript|
 
 ## 🖼️ Project Previews
 
@@ -105,6 +106,11 @@ This repository showcases my journey in frontend development through different l
       <img src="./COFFEE/preview/preview.png" width="250" alt="Coffee Preview">
     </a>
    </td>
+    <td align="center" width="33%">       
+      <b><a href="./FURNITURE%20SWIPER/">FURNITURE SWIPER</a></b><br><br>       
+      <a href="./FURNITURE%20SWIPER/">
+        <img src="./FURNITURE%20SWIPER/preview/preview.png" width="250" alt="Furniture Swiper Preview"></a>     
+    </td>
     </tr>
 </table>
 
